@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Crackers :: Home</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="ROBOTS" content="index, follow">
+	<meta name="ROBOTS" content="all">
+	<meta name="google-website-verification" content="key">
+	<!-- styles -->
+	<link rel="stylesheet" href="css/input.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- tailwindcss -->
+	<script src="https://cdn.tailwindcss.com"></script>
+<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- tailwindcss config -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo Tammudu">
+	<script>
+	tailwind.config = {
+		theme: {
+			screen: {
+				sm: '640px',
+				md: '768px',
+				lg: '1024px',
+				xl: '1280px',
+			},
+			extend: {
+				colors: {
+					clifford: '#da373d',
+				},
+			},
+		},
+	}
+	</script>
+	<!-- styles tailwindcss -->
+	<style type="text/tailwindcss"> @layer utilities { .content-auto { content-visibility: auto; } } </style>
+	<!-- plugin tailwindcss -->
+	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<!-- AOS Animation css -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> </head>
+
+<body>
+	<!-- header Start -->
+<div id="page-container">
+	<nav class="shadow relative align w-full z-10 top-0 header-background">
+		<div class="container mx-auto relative flex md:items-center md:justify-between py-4 md:py-4">
+			<!-- logo -->
+			
+			<a href=""><span class="font-serif text-3xl text-white float-left mx-2 md:mx-0">
+                    <img src="images/vigo.jpeg" alt="" height="75" width="75" class="mx-auto">
+                </span></a>
+			<!-- menu items -->
+			<div class="block text-3xl relative cursor-pointer md:hidden">
+				<button class="flex flex-col float-right right-8 top-6 mx-2 md:mx-0">
+					<ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+				</button>
+			</div>
+			<ul class="w-full md:w-auto md:flex md:items-center bg-white sm:bg-white md:bg-transparent lg:bg-transparent absolute z-[1] md:static md:z-auto
+                     left-0 py-2 opacity-0 md:opacity-100 top-[-400px] transition-all ease-in duration-500">
+				
+				<li class="list-style-none  md:text-white lg:text-white hover:border-b-2 hover:border-b-yellow-600 text-xl font-semibold mx-4 md:my-0 my-5 "> <a href="">HOME</a> </li>
+                        <li class="list-style-none md:text-white lg:text-white hover:border-b-2 hover:border-b-yellow-600 font-semibold text-xl mx-4 md:my-0 my-5 "> <a href="">PRODUCTS</a> </li>
+				<li class="list-style-none md:text-white lg:text-white hover:border-b-2 hover:border-b-yellow-600 text-xl font-semibold mx-4 md:my-0 my-5"> <a href="">CONTACT</a> </li>
+				<!-- <div class="text-1xl mb-3 md:mb-0 float-right md:hidden">
+					 <a href="" class="hover:border-b-yellow-600 md:text-white lg:text-white text-sm  duration-500 mx-5">LOG IN</a>
+					  <a href="" class="text-white rounded-3xl duration-500 btn-sign mr-4 md:mr-0 px-3 py-2">
+						SIGN UP</a> </div> -->
+			</ul>
+			
+		
+			
+			<div class="text-1xl mb-0 md:mb-0 invisible md:visible"> 
+				<!-- <a href="" class="hover:text-blue-400 text-white text-sm  mx-5">LOG IN</a>  -->
+				<!-- <a href="" class="text-white rounded-3xl btn-sign mr-4 md:mr-0 px-3 py-2">SIGN UP</a>  -->
+			</div>
+		</div>
+	</nav>
+
+	<!-- script -->
+	<script>
+	function Menu(e) {
+		let list = document.querySelector('ul');
+		e.name === 'menu' ? (e.name = "close", list.classList.add('top-[55px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[55px]'), list.classList.remove('opacity-100'))
+	}
+	</script>
+	<!-- header End -->
+	<!-- Home section start -->
+ <div class="bg-black">
+	<section class=" height-home md:pb-4 lg:pb-4 relative">
+		<!-- <div class="container mx-auto flex flex-col md:flex md:flex-col lg:flex lg:flex-col align"> -->
+			<div class="slideshow-container">
+				
+				<div class="crackers-background mySlides height-home"  style="width:100%">
+					<div class="flex-col flex">
+							
+						<div class="flex flex-col self-center home-text sm:-mt-32 md:-mt-20 xl:-mt-5 -mt-40">
+							<span class=" home-title text-white self-center text-center font-bold">VIGO CRACKERS</span>
+					
+					<button class="flex flex-col xl:mt-5 md:mt-2 sm:mt-0 mt-0  float-right self-center text-center text-white bg-green-800 text-2xl p-2 px-10 font-semibold">Order Now	</button>	
+				</div>
+				</div>
+				</div>
+				<div class="crackers2-background mySlides height-home"  style="width:100%">
+					<!-- <img  src="images/crackers2.png"> -->
+					<div class="flex-col flex">
+							
+						<div class="flex flex-col self-center home-text sm:-mt-32 md:-mt-20 xl:-mt-5 -mt-40">
+							<span class=" home-title text-white self-center text-center font-bold">VIGO CRACKERS</span>
+					
+					<button class="flex flex-col xl:mt-5 md:mt-2 sm:mt-0 mt-0  float-right self-center text-center text-white bg-green-800 text-2xl p-2 px-10 font-semibold">Order Now	</button>	
+				</div>
+					</div>
+					</div>
+					<div class="crackers3-background mySlides height-home"  style="width:100%">
+						<!-- <img  src="images/crackers3.png"> -->
+						<div class="flex-col flex">
+							
+							<div class="flex flex-col self-center home-text sm:-mt-32 md:-mt-20 xl:-mt-5 -mt-40">
+								<span class=" home-title text-white self-center text-center font-bold">VIGO CRACKERS</span>
+						
+						<button class="flex flex-col xl:mt-5 md:mt-2 sm:mt-0 mt-0  float-right self-center text-center text-white bg-green-800 text-2xl p-2 px-10 font-semibold">Order Now	</button>	
+					</div>
+						<div class="flex flex-col mt-28 bg-green-800 py-10 rounded-full home-text self-end float-right text-right ">
+							<div class="flex flex-col -mt-10  py-2 ">
+							<span class=" text-white font-semibold" style="font-size:10rem">80%</span>
+						<span class="text-5xl text-white font-semibold self-center text-center -mt-10">DISCOUNT</span>
+					</div>
+					</div>
+					</div>
+						</div>
+			  </div>
+	
+			
+		<!-- </div> -->
+	</section>
+</div>
+	<!-- Home Section end -->
+	<div class="bg-white">
+		<section class=" relative pt-0 sm:pt-0  md:py-10 py-10 lg:py-10 xl:py-10">
+			
+			<div class="container py-10 mx-auto align"> 
+	
+				<ul class="w-full flex xl:flex-row md:flex-row sm:flex-row flex-col border-2 p-2 justify-between">
+					
+					<li class="list-style-none flex flex-row  text-slate-600 hover:border-b-2 hover:border-b-yellow-600 text-sm font-semibold mx-4 md:my-0 my-5 ">
+						
+						<i class='fa fa-truck self-center text-slate-600 pr-1' style="font-size:40px"></i>
+						<div class="flex flex-col"><a href="" class="text-2xl font-semibold">Fill Up Quantity  </a>
+						 <span class="text-xs font-normal">All Over in world over $200</span>
+						 </div>
+						
+						 </li>
+							<li class="list-style-none border-l-2 text-slate-600 pl-4 flex flex-row hover:border-b-2 hover:border-b-yellow-600 font-semibold text-sm mx-4 md:my-0 my-5 "> 
+								<i class="fa fa-credit-card text-slate-600 self-center pr-1" style="font-size:40px" aria-hidden="true"></i>
+								<div class="flex flex-col">
+								<a href="" class="text-2xl font-semibold">Fill Customer Detail </a>
+								  <span class="text-xs font-normal">Payment Gateway Support</span>
+								  </div>
+							</li>
+					<li class="list-style-none border-l-2 pl-4 text-slate-600 flex flex-row hover:border-b-2 hover:border-b-yellow-600 text-sm font-semibold mx-4 md:my-0 my-5"> 
+						<i class="fa fa-clock-o text-slate-600 self-center pr-1" style="font-size:40px"></i>
+						<div class="flex flex-col">
+						<a href="" class="text-2xl font-semibold">Click Order Now  </a>
+						<span class="text-xs font-normal">Free for UK Customers</span>
+						</div>
+					 </li>
+						<li class="list-style-none border-l-2 text-slate-600 pl-4 flex flex-row hover:border-b-2 hover:border-b-yellow-600 text-sm font-semibold mx-4 md:my-0 my-5"> 
+							<i class="fa fa-check text-slate-600 self-center pr-1" style="font-size:40px" aria-hidden="true"></i>
+							<div class="flex flex-col">
+							<a href="" class="text-2xl font-semibold">We Will Call You  </a>
+							 <span class="text-xs font-normal">50,000+ Products</span>
+							 </div>
+						</li>
+					
+				</ul>
+				
+			</div>
+		</section>
+	</div>
+
+	
+	<!-- About Us start -->
+<div class="bg-slate-600">
+	<section class=" relative pt-0 sm:pt-0  md:pb-20 pb-20 lg:pb-20 xl:pb-20" style="min-height:400px">
+        
+		<div class="container py-10 mx-auto align"> 
+
+            <div class="w-full flex flex-col"> 
+				<h3 class="font-semibold text-3xl text-white pb-4">About Us</h3>
+				<p class="leading-3 text-white pb-5" >
+					<span class="text-md font-semibold">WELCOME TO VIGO CRACKERS, </span>
+					<span class="text-sm  font-normal">
+					<br><br>We, Vigo Crackers are pleased to introduce ourselves as one of the leading manufacturers of fireworks at Sivakasi.<br><br>
+					Our Industry was established in 2015 by <b>Mr. A.Balamurugan</b>, who is an MBA graduate from the prestigious ICFAI University.<br><br>
+					He served in Indian Air Force in the Administrative stream for 19 years before entering in Fireworks field.<br><br>
+					Initially, we started with the production of Fancy crackers and later we expanded our business sphere and produced variety of crackers.<br><br>
+					Our products are being manufactured with atmost care under the direct supervision of highly experienced Pyrotechnics to ensure best quality with eagle’s eye on safety and caution.</span>
+					<br></p>
+<hr />
+<div class="text-center flex xl:flex-row md:flex-row sm:flex-row flex-col justify-between mt-4 pb-4 full-width">
+	<div class="flex flex-row">
+		<i class="fa fa-shopping-cart" style="font-size:40px;color:#fff" aria-hidden="true"></i>
+	<h3 class="text-2xl text-white pl-2 font-semibold">Good Packing</h3>
+	</div>
+	<div class="flex flex-row">
+		<i class='fa fa-truck' style="font-size:40px;color:#fff"></i>
+	<h3 class="text-2xl text-white pl-2 font-semibold">Fast Delivery</h3>
+	</div>
+<div class="flex flex-row">
+	<i class="fa fa-thumbs-up" style="font-size:40px;color:#fff" aria-hidden="true"></i>
+	<h3 class="text-2xl text-white pl-2 font-semibold">Quick Response</h3>
+	</div>
+	</div>
+   <hr />          
+             </div>
+			
+		</div>
+	</section>
+</div>
+
+
+	<!-- About Us end -->	
+	<!-- footer section start -->
+<footer id="footer" style="height:5.5rem;">
+<section class="relative footer-section"> 
+		<div class="container mx-auto flex xl:flex-row md:flex-row sm:flex-row flex-col py-4 relative">
+			<!-- <div class="container mx-auto flex flex-col md:flex md:flex-col xl:flex xl:flex-col justify-between lg:flex lg:flex-col align"> -->
+
+                <a href="" class="self-center"><span class="font-serif text-3xl text-white  float-left mx-2 md:mx-0"> 
+					<img src="images/vigo.jpeg" alt="" height="75" width="75" class="mx-auto"></span></a>
+              
+				<div class="flex flex-col self-center">
+						<span class="self-center text-2xl font-semibold">Get In Touch</span>
+					<ul class="flex flex-col md:flex md:flex-col xl:flex xl:flex-col md:mt-2 lg:mt-2  self-center  py-1 md:py-0 xl:py-0 mr-4 sm:mr-0 xl:mr-0">
+				<li class="list-style-none text-white text-sm mx-4 "> <a href="">Location</a> </li>
+				<li class="list-style-none text-white text-sm mx-4"> <a href="">Whats app Number</a> </li>
+				<li class="list-style-none text-white text-sm mx-4"> <a href="">Phone Number</a> </li>
+                        <li class="list-style-none text-white text-sm mx-4"> <a href="">Email</a> </li>
+			
+			</ul></div>
+                   <div class="flex flex-col space-x-3 md:mt-2 lg:mt-2 self-center">
+					<span class="self-center text-2xl font-semibold">Follow Us on</span>
+				
+				<div class="flex flex-row self-center">	
+					<a href="" class=""><img src="images/Facebook 1.png" alt=""></a>
+				<a href="" class=""><img src="images/instagram 2.png" alt=""></a>
+				<!-- <a href="" class=""><img src="images/twitter 3.png" alt=""></a>
+			      <a href="" class=""><img src="images/linkedin 4.png" alt=""></a></div> -->
+			 </div>
+			
+			
+		<!-- </div> -->
+		</div>
+
+
+
+	</section>
+</footer>
+</div>
+	<!-- footer end -->
+
+	<!-- AOS Animation js -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	AOS.init();
+	</script>
+
+<script>
+	var myIndex = 0;
+	carousel();
+	
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 3000); // Change image every 2 seconds
+	}
+	</script>
+</body>
+
+</html>

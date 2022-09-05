@@ -1,0 +1,69 @@
+
+.crackers-background {
+    width: 100%;
+    background-image: url(../images/crackers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crackers2-background {
+    width: 100%;
+    background-image: url(../images/crackers2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crackers3-background {
+    width: 100%;
+    background-image: url(../images/crackers3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.height-home{
+    height:30rem;
+}
+.home-title{
+    text-shadow: 4px 4px 4px #fff;
+    font-size: 7rem;
+}
+.home-text{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.footer-section{
+    /* background-color: #0054a0; */
+    background-color:#877e7e;
+color:#fff;
+}
+
+.slideshow-container {
+    /* max-width: 1000px; */
+    position: relative;
+    /* margin: auto; */
+  }
+
+.header-background{
+background: #0054a0;
+}
+.scroll{
+height: 450px;
+    overflow: auto;
+}
+
+
+.container{
+    justify-content: space-between;  
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;            /* Footer height */
+}
