@@ -121,3 +121,16 @@ table {
   text-decoration:line-through;
   text-decoration-thickness: 2px;
   }
+
+  a.notification {
+    position: relative;
+    display: block;
+    background-size: contain;
+    text-decoration: none;
+  }
+  .num {
+    position: absolute;
+    /* right: -25px; */
+    top: -5px;
+    color: #fff;
+  }
